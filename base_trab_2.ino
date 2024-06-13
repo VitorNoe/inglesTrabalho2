@@ -1,8 +1,8 @@
-//TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS - SENAC NH
+//TÃ‰CNICO EM DESENVOLVIMENTO DE SISTEMAS - SENAC NH
 //Programa base para TRABALHO 2
 //PROF.: Glauber Kiss de Souza
-//DISC.: Analizar Orient. Técnicas
-
+//DISC.: Analizar Orient. TÃ©cnicas
+//This programm itÂ´s about microcontroller made in Arduino system, the original creator is Glauber Kiss de Souza, who shared the file.
 int soma = 13;
 int carryBit = 0;
 int nib1a,nib1b,nib1c,nib1d = 0;
