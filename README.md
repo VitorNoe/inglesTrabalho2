@@ -71,3 +71,5 @@ The `loop()` function reads the input bits and performs bitwise addition when th
 - Editor and Enhancer: Vítor Luciano Cardoso Noé
 - Course: Técnico em Desenvolvimento de Sistemas - SENAC NH  
 - Discipline: Tecníco de Desenvolvimento de Sistemas Bilingue
+
+For more details, see the LICENSE file.
