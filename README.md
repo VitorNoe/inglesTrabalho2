@@ -1,6 +1,6 @@
 # Microcontroller Adder Project
 
-This repository contains the source code for a microcontroller-based 4-bit adder, originally developed by Glauber Kiss de Souza for the SENAC NH course "Técnico em Desenvolvimento de Sistemas" under the discipline of Análise Orientada a Técnicas.
+This repository contains the source code for a microcontroller-based 4-bit adder, originally developed by Glauber Kiss de Souza for the SENAC NH course "Técnico em Desenvolvimento de Sistemas" under the discipline.
 
 ## Project Overview
 
@@ -68,7 +68,6 @@ The `loop()` function reads the input bits and performs bitwise addition when th
 ## Acknowledgments
 
 Original creator: Glauber Kiss de Souza  
+Editor and Enhancer: Vítor Luciano Cardoso Noé
 Course: Técnico em Desenvolvimento de Sistemas - SENAC NH  
-Discipline: Análise Orientada a Técnicas
-
-For more information, visit the official course website or contact the course instructor.
+Discipline: Tecníco de Desenvolvimento de Sistemas Bilingue
