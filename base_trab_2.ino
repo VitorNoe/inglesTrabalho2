@@ -3,11 +3,11 @@
 //PROF.: Glauber Kiss de Souza
 //DISC.: Analizar Orient. Técnicas
 //This programm it´s about microcontroller made in Arduino system, the original creator is Glauber Kiss de Souza, who shared the file.
-int soma = 13; // Input pin for the 'soma' signal
+int somaPin = 13; // Input pin for the 'soma' signal
 int carryBit = 0; // Variable to store the carry bit
-int nib1a, nib1b, nib1c, nib1d = 0; // Variables for the first 4-bit number
-int nib2a, nib2b, nib2c, nib2d = 0; // Variables for the second 4-bit number
-int res1a, res1b, res1c, res1d = 0; // Variables to store the result bits
+int nib1a, nib1b, nib1c, nib1d; // Variables for the first 4-bit number
+int nib2a, nib2b, nib2c, nib2d; // Variables for the second 4-bit number
+int res1a, res1b, res1c, res1d; // Variables to store the result bits
 
 void setup() {
     // Set input pins for the 4-bit numbers and soma signal
@@ -24,7 +24,7 @@ void setup() {
     pinMode(10, OUTPUT); // Output pin for the result bit 2
     pinMode(11, OUTPUT); // Output pin for the result bit 3
     pinMode(12, OUTPUT); // Output pin for the carry bit
-    pinMode(13, INPUT); // Input pin for the soma signal
+    pinMode(somaPin, INPUT); // Input pin for the soma signal
 }
 
 int somaBit(int b1a, int b2a, int cBit) {
@@ -39,7 +39,7 @@ int somaCarryBit(int b1a, int b2a, int cBit) {
 
 void loop() {
     // Read the value of the soma signal
-    soma = digitalRead(13);
+    int soma = digitalRead(somaPin);
 
     // Read the bits of the first 4-bit number
     nib1a = digitalRead(0);
@@ -71,7 +71,7 @@ void loop() {
     digitalWrite(8, res1a);
     digitalWrite(9, res1b);
     digitalWrite(10, res1c);
-    digitalWrite(11, res1d); 
+    digitalWrite(11, res1d);
     // Output the final carry bit
     digitalWrite(12, carryBit);
 }
