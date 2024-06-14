@@ -3,6 +3,7 @@
 //PROF.: Glauber Kiss de Souza
 //DISC.: Analizar Orient. Técnicas
 //This programm it´s about microcontroller made in Arduino system, the original creator is Glauber Kiss de Souza, who shared the file.
+
 int somaPin = 13; // Input pin for the 'soma' signal
 int carryBit = 0; // Variable to store the carry bit
 int nib1a, nib1b, nib1c, nib1d; // Variables for the first 4-bit number
