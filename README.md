@@ -1,6 +1,6 @@
 # Microcontroller Adder Project
 
-This repository contains the source code for a microcontroller-based 4-bit adder, originally developed by Glauber Kiss de Souza for the SENAC NH course "Técnico em Desenvolvimento de Sistemas" under the discipline.
+This repository contains the source code for a microcontroller-based 4-bit adder, originally developed by Glauber Kiss de Souza for the SENAC NH course.
 
 ## Project Overview
 
